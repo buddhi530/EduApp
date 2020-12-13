@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kavishka.Pp">
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigation"
+        app:itemBackground="@android:color/holo_orange_light"
+        app:itemTextColor="@color/common_google_signin_btn_text_dark_focused"
+        app:itemIconTint="@color/cardview_light_background"
+        app:menu="@menu/menu_naviagtion"
+        android:layout_alignParentBottom="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30sp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="229dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="0dp"
+            android:src="@drawable/ic_menu_book" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/kav_pp1"
+            android:textAlignment="center"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textColorHighlight="@color/design_default_color_primary_dark"
+            android:textColorHint="@color/design_default_color_primary_dark"
+            android:textColorLink="@color/design_default_color_primary_dark"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/pp_txt_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Year:"
+            android:textColor="@android:color/black"
+            android:textColorHighlight="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textColorLink="@android:color/black"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/pp_txt_semester"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Semester:"
+            android:textColor="@android:color/black"
+            android:textColorHighlight="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textColorLink="@android:color/black"
+            android:textSize="22sp" />
+
+
+        <EditText
+            android:id="@+id/pp_txt_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Name:"
+            android:textColor="@android:color/black"
+            android:textColorHighlight="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textColorLink="@android:color/black"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/pp_txt_subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Subject:"
+            android:textColor="@android:color/black"
+            android:textColorHighlight="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textColorLink="@android:color/black"
+            android:textSize="22sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/pp_upload_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="ADD"
+                android:textColor="#ffffff"
+                android:background="@drawable/markbut"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="VIEW"
+                android:textColor="#ffffff"
+                android:background="@drawable/markbut"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+
+        <!--        <Button-->
+        <!--            android:id="@+id/btn_upload"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginLeft="1dp"-->
+        <!--            android:layout_marginTop="15dp"-->
+        <!--            android:background="@drawable/ic_baseline_radio_button_unchecked_24"-->
+        <!--            android:text="Upload"-->
+        <!--            android:textColor="@color/common_google_signin_btn_text_dark_focused"-->
+        <!--            android:textSize="20sp" />-->
+
+
+        <!--        <Button-->
+        <!--            android:id="@+id/btn_view"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginLeft="1dp"-->
+        <!--            android:layout_marginTop="9dp"-->
+        <!--            android:background="@drawable/ic_baseline_radio_button_unchecked_24"-->
+        <!--            android:text="View"-->
+        <!--            android:textColor="@color/common_google_signin_btn_text_dark_focused"-->
+        <!--            android:textSize="20sp" />-->
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

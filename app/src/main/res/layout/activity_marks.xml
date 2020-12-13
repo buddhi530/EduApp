@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rasuni.Marks">
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigation"
+        app:itemBackground="@android:color/holo_orange_light"
+        app:itemTextColor="@color/common_google_signin_btn_text_dark_focused"
+        app:itemIconTint="@color/cardview_light_background"
+        app:menu="@menu/menu_naviagtion"
+        android:layout_alignParentBottom="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="30sp">
+
+        <ImageView
+            android:layout_width="240dp"
+            android:layout_height="125dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="0dp"
+            android:src="@drawable/ic_baseline_exposure" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/rasuni_login7"
+            android:textAlignment="center"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textColorHighlight="@color/design_default_color_primary_dark"
+            android:textColorHint="@color/design_default_color_primary_dark"
+            android:textColorLink="@color/design_default_color_primary_dark"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/txt_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/rasuni_login8"
+            android:textColor="@android:color/black"
+            android:textColorHighlight="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textColorLink="@android:color/black"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/txt_semester"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/rasuni_login9"
+            android:textColor="@android:color/black"
+            android:textColorHighlight="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textColorLink="@android:color/black"
+            android:textSize="22sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/txt_subject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Subject:"
+                android:inputType="textMultiLine"
+                android:textColor="@android:color/black"
+                android:textColorHighlight="@android:color/black"
+                android:textColorHint="@android:color/black"
+                android:textColorLink="@android:color/black"
+                android:textSize="22sp" />
+
+            <EditText
+                android:id="@+id/txt_mark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/rasuni_login12"
+                android:inputType="textMultiLine"
+                android:textColor="@android:color/black"
+                android:textColorHighlight="@android:color/black"
+                android:textColorHint="@android:color/black"
+                android:textColorLink="@android:color/black"
+                android:textSize="22sp" />
+
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/txt_gpa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/rasuni_login10"
+            android:textColor="@android:color/black"
+            android:textColorHighlight="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textColorLink="@android:color/black"
+            android:textSize="22sp" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="ADD"
+                android:textColor="#ffffff"
+                android:background="@drawable/markbut"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/btnDisplay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="VIEW"
+                android:textColor="#ffffff"
+                android:background="@drawable/markbut"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

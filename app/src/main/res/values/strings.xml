@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Eduapp</string>
+
+    <string name="rasuni_welcome">WELCOME</string>
+    <string name="rasuni_login1">Sign Up your new Exam Life</string>
+    <string name="rasuni_login2">UserName</string>
+    <string name="rasuni_login3">Email</string>
+    <string name="rasuni_login4">Phone Number</string>
+    <string name="rasuni_login5">Password</string>
+    <string name="rasuni_login6">GO</string>
+    <string name="rasuni_login7">Results</string>
+    <string name="rasuni_login8">Enter Year:</string>
+    <string name="rasuni_login9">Enter Semester:</string>
+    <string name="rasuni_login10">GPA:</string>
+    <string name="rasuni_login11">Subject:</string>
+    <string name="rasuni_login12">Marks:</string>
+    <string name="bm_cal1">AC</string>
+    <string name="bm_cal2">BACK</string>
+    <string name="bm_cal3">ANSWER</string>
+    <string name="bm_cal4">1</string>
+    <string name="bm_cal5">2</string>
+    <string name="bm_cal6">4</string>
+    <string name="bm_cal7">5</string>
+    <string name="bm_cal8">6</string>
+    <string name="bm_cal9">7</string>
+    <string name="bm_cal10">8</string>
+    <string name="bm_cal11">9</string>
+    <string name="bm_cal12">0</string>
+    <string name="yasa_p01">Projects</string>
+    <string name="yasa_p2">Enter Year:</string>
+    <string name="yasa_p3">Enter Semester:</string>
+    <string name="yasa_p4">Enter Name:</string>
+    <string name="yasa_p5">Enter Subject:</string>
+    <string name="yasa_p6">UPLOAD</string>
+    <string name="yasa_p7">VIEW</string>
+    <string name="yas_edit1">Description</string>
+    <string name="kav_pp1">Past Papers</string>
+    <string name="kav_pp2">Enter Year:</string>
+    <string name="kav_pp3">Enter Semester:</string>
+    <string name="kav_pp4">Enter Name:</string>
+    <string name="kav_pp5">Enter Subject:</string>
+    <string name="kav_pp6">VIEW</string>
+    <string name="kav_pp7">UPDATE</string>
+    <string name="kav_edit1">Description</string>
+</resources>

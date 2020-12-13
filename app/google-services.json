@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "604197593685",
+    "firebase_url": "https://eduapp-efcf8.firebaseio.com",
+    "project_id": "eduapp-efcf8",
+    "storage_bucket": "eduapp-efcf8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604197593685:android:a1b7d50247d8a5051eeadc",
+        "android_client_info": {
+          "package_name": "com.example.eduapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604197593685-ajokou5fifp0ms79idlj9j5d1o4iul7k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNYznSz-HFYKjuQ0I5AnW8HllcTm5qgcg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "604197593685-ajokou5fifp0ms79idlj9j5d1o4iul7k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

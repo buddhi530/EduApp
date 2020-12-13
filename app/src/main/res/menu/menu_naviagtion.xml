@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/todo"
+        android:title="Calculater"
+        android:icon="@drawable/todo"/>
+
+    <item
+        android:id="@+id/marks"
+        android:title="Marks"
+        android:icon="@drawable/mark"/>
+
+
+
+    <item
+        android:id="@+id/assignment"
+        android:title="Assignments"
+        android:icon="@drawable/assignment"/>
+
+    <item
+        android:id="@+id/project"
+        android:title="Projects"
+        android:icon="@drawable/project"/>
+
+        <item
+            android:id="@+id/pp"
+            android:title="past_papers"
+            android:icon="@drawable/pp"/>
+
+
+</menu>
